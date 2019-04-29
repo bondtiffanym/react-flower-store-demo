@@ -1,0 +1,80 @@
+:root{
+--mainPurple:#6C2684;
+--lightPurple:#C493FF;
+--mainWhite:#f3f3f3;
+--mainDark:#232528;
+--mainYellow:#FCC74F;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif!important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: transparent;
+  
+}
+
+.text-title {
+  font-family: 'Amita', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-purple {
+  color: var(--mainPurple);
+}
+.text-bright {
+  color: var(--lightPurple);
+}
+
+nav {
+  background-image: linear-gradient(to right, #7b319e, #772e97, #742b91, #70298a, #6c2684);
+  position: fixed;
+}
+.navbar-brand {
+  max-height: 2.5rem;
+  padding: 2px;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.myCart {
+  background: none;
+  color: var(--mainYellow);
+  border-radius: 0.3rem;
+  border: 1px var(--mainYellow) solid;
+  text-transform: capitalize;
+}
+.backBtn {
+  background: none;
+  color: var(--lightPurple);
+  border-radius: 0.3rem;
+  border: 1px var(--lightPurple) solid;
+  text-transform: capitalize;
+}
+.btn-black {
+background: transparent;
+text-transform: capitalize; 
+font-size: 0.8rem !important;
+color: var(--mainDark);
+border-radius: 0.2rem;
+border: 0.1rem solid var(--mainDark) !important;
+cursor: pointer;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
