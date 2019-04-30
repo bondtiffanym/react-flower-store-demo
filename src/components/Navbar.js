@@ -22,8 +22,8 @@ export class Navbar extends Component {
         </li>
         </ul>
         <Link to="/cart" className="ml-auto">
-        <button className="myCart hvr-grow">
-            <i className="fas fa-cart-plus"></i> My Cart
+        <button className="myCart hvr-grow ml-2">
+            <i className="fas fa-cart-plus"></i><span className="d-none d-sm-inline-block ml-1"> My Cart</span>
         </button>
         </Link>
       </nav>

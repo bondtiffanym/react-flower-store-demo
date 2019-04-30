@@ -37,10 +37,10 @@ export default class Details extends Component {
 
                 {/* Buttons */}
                 <Link to="/">
-                <button className="backBtn mr-3 p-2 text-capitalize hvr-grow">back to product</button>
+                <button className="backBtn mt-2 mr-3 p-2 text-capitalize hvr-grow">back to product</button>
                 </Link>
 
-                <button className="myCart cart-btn p-2 text-capitalize hvr-grow"
+                <button className="myCart cart-btn mt-2 p-2 text-capitalize hvr-grow"
                 disabled={inCart ? true: false} onClick={() => {
                   value.addToCart(id);
                   value.openModal(id);
