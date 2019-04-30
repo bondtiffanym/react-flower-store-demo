@@ -26,14 +26,14 @@ export default class Modal extends Component {
                             <h5 className="text-muted text-capitalize">price: ${price}</h5>
 
                             <Link to="/">
-                            <button className="backBtn p-2 my-2 text-capitalize hvr-grow"
+                            <button className="backBtn p-2 my-2 mx-1 text-capitalize hvr-grow"
                             onClick={() => {
                                 closeModal();
                             }}>continue shopping</button>
                             </Link>
 
                             <Link to="/cart">
-                            <button className="myCart cart-btn p-2 text-capitalize hvr-grow"
+                            <button className="myCart cart-btn p-2 mx-1 text-capitalize hvr-grow"
                             onClick={() => {
                                 closeModal();
                             }}>go to cart</button>
