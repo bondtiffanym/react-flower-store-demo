@@ -39,7 +39,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Vibrat Melody Bouquet",
+    title: "Vibrant Melody Bouquet",
     img: "img/product-4.png",
     price: 25.99,
     info:
