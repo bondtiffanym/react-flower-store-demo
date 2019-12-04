@@ -16,17 +16,17 @@ export default function CartTotals({value}) {
                     <h5>
                         <span>
                         Subtotal: </span>
-                        <strong>${cartSubTotal}</strong>
+                        <strong>${cartSubTotal.toFixed(2)}</strong>
                     </h5>
                     <h5>
                         <span>
                         Tax: </span>
-                        <strong>${cartTax}</strong>
+                        <strong>${cartTax.toFixed(2)}</strong>
                     </h5>
                     <h5>
                         <span>
                         Total: </span>
-                        <strong>${cartTotal}</strong>
+                        <strong>${cartTotal.toFixed(2)}</strong>
                     </h5>
                     <PaypalButton total={cartTotal} clearCart={clearCart} history={history}/>
                 </div>
